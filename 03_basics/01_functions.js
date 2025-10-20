@@ -31,7 +31,20 @@ return number1 + number2
 }
 const result = addTwoNumbers(3,5)
 
-console.log("result:", result);
+// console.log("result:", result);
+
+function loginUserMessage(username="sam"){
+  if(!username){
+    console.log("please enter a username");
+    return
+  
+  }
+  return `${username} just logged in`
+}
+
+ console.log(loginUserMessage("Hitesh"));
+// console.log(loginUserMessage(""));
+console.log(loginUserMessage());
 
 
 
