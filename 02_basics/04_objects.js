@@ -55,6 +55,7 @@
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 // console.log(tinderUser.hasOwnProperty('isLogged'));
 
+// object destructuring
 const course ={
     coursename:"JS in hindi",
     price:"999",
@@ -63,7 +64,7 @@ const course ={
 
 // course.Instructor
 const{courseInstructor:instructor} =course
-console.log(courseInstructor);
+// console.log(courseInstructor);
 console.log(instructor);
 
 
@@ -75,7 +76,7 @@ console.log(instructor);
 
 // }
 
-
+// API as array format (multiple objects within aaray)
 [
     {},
     {},
